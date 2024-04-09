@@ -80,14 +80,6 @@ export default function CreateBanner() {
             alt={`${srcImg}...`}
           />
         </Form.Item>
-        <div className="text-center ">
-          <button
-            className="border bg-sky-300 text-white border-white px-5 py-2 rounded"
-            type="submit"
-          >
-            Thêm
-          </button>
-        </div>
       </Form>
     </div>
   );
