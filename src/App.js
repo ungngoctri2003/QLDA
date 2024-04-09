@@ -78,10 +78,7 @@ export default function App() {
       <ModalTrailer />
       <Switch>
         <Route path="/success" exact component={Checkout_Success} />
-        <Route path="/error" exact component={Checkout_Error} />
-        <Form path="/signUp" exact Component={SignUp} />
-        <Form path="/signIn" exact Component={SignIn} />
-        {/* admin */}
+
         <Template path="/Admin/Home" exact Component={Home} />
         {/* User */}
         <Template path="/Admin/Users" exact Component={User} />
