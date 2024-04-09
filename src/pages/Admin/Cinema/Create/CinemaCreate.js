@@ -59,7 +59,6 @@ export default function CinemaCreate(props) {
   };
   return (
     <div>
-      <h2 className="text-center my-4 text-2xl">Thêm Rạp Chiếu</h2>
       <Form
         onSubmitCapture={formik.handleSubmit}
         labelCol={{
