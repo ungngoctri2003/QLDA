@@ -75,7 +75,6 @@ export default function App() {
   }, []);
   return (
     <Router history={history}>
-      <Loading />
       <ModalTrailer />
       <Switch>
         <Route path="/success" exact component={Checkout_Success} />
